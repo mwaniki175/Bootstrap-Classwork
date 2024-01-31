@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+
+<h1>Student Form</h1>
+<form action="" class="bg-info p-5 ">
+
+    <div class="mt-3 mb-3">
+        <label for="fname" class="form-label">First Name</label>
+        <input type="text" id="fname"class="form-control" placeholder="Enter First Name" required="required" >
+    </div>
+
+    <div class="mb-3">
+        <label for="lname" class="form-label">Last Name</label>
+        <input type="text" id="lname"class="form-control" placeholder="Enter Last Name" required="required" >
+    </div>
+
+    <div class="mt-3 mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" id="email"class="form-control" placeholder="abc@gmail.com" required="required" >
+    </div>
+
+    <div class="mt-3 mb-3">
+        <label for="pswrd" class="form-label">Password</label>
+        <input type="password" id="pswrd"class="form-control" placeholder="Type your Password" required="required" >
+    </div>
+
+    <div>
+        <center><button class="btn btn-primary">Register</button>
+       </center>
+
+    </div>
+
+<
+
+</form>
+    <br><br><br><br>
+
+<form action="">
+    <div class="row">
+        <div class="col">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" required="required" class="form-control">
+        </div>
+        <div class="col">
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" id="pwd" required="required" class="form-control">
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="col">
+        <label for="add" class="form-label">Address</label>
+        <input type="text" id="add" placeholder="1234 Main St" required="required" class="form-control">
+    </div>
+
+    <div>
+        <label for="add2" class="form-label">Address 2</label>
+        <input type="text" id="add2" placeholder="Apartment,studio,or floor" required="required" class="form-control">
+
+    </div>
+
+    <div class="row">
+        <div class="col ">
+            <label for="city" class="form-label">City</label>
+            <input type="text" id="city" required="required"class="form-control">
+        </div>
+        <div class="col">
+            <label for="st" class="form-label">State</label>
+            <select name="State" id="st" class="form-control">
+            <option value="choose" disabled="disabled">--choose </option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+    </select>
+        </div>
+        <div class="col">
+            <label for="zip" class="form-label">Zip</label>
+            <input type="text" id="zip" required="required" class="form-control">
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <input type="checkbox" id="rm">
+        <label for="rm">Remember me</label>
+
+    </div>
+    <div class="mt-3">
+        <button class="btn btn-primary">Submit</button>
+    </div>
+
+
+</form>
+
+
+</body>
+</html>
